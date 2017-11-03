@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'helvetica_neue_light';
+  src: url('./fonts/HelveticaNeueLTStd-Lt.otf');
+  /* src: url('./fonts/helveticaneue-light-webfont.eot') format('embedded-opentype'), url('./fonts/helveticaneue-light-webfont.woff') format('woff'), url('./fonts/helveticaneue-light-webfont.ttf') format('truetype'), url('./fonts/helveticaneue-light-webfont.svg') format('svg'); */
+ 
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'helvetica_neue_light',sans-serif;
+}
+
+h1,h2,h3,h5,p{
+  font-weight: 100;
+}
+
+body {
+  
+  /* overflow: hidden; */
+}
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url('./assets/bg.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+div,
+body {
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 456px) {
+  body{
+      overflow-y:scroll;
+  }
+}
