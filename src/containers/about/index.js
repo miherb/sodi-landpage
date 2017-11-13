@@ -127,7 +127,7 @@ class AboutPage extends Component {
                         </button>
                     </e.GoalContainer>
                     <a onClick={() => this.goTo('openData')}>
-                        <e.Arrow style={{bottom: '-110px'}}  showNav={this.state.showNav} bottom color={'ffffff'} angle={45}></e.Arrow>
+                        <e.Arrow style={{bottom: '100px',margin:'0 auto',right:0,left:0,position:'absolute'}}  showNav={this.state.showNav} bottom color={'ffffff'} angle={45}></e.Arrow>
                     </a> 
 
                 </div>

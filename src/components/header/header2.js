@@ -56,9 +56,9 @@ class Header extends Component{
                         <a onClick={()=>this.goTo('faq')}>
                             <h1>FAQ</h1>
                         </a>
-                        <Link to='/donations'>
+                        {/* <Link to='/donations'>
                             <h1>Donate</h1>
-                        </Link>
+                        </Link> */}
                     </div>
                 </e.Nav>
                 <e.SocialMedia top>

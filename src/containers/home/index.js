@@ -64,9 +64,9 @@ class Home extends Component {
                 <e.Button>
                 <Link to='/about'>About</Link>
                 </e.Button>
-                <e.Button top>
+                {/* <e.Button top>
                     <Link to='/donations'>Donate</Link>
-                </e.Button>
+                </e.Button> */}
                 
             </div>
         )

@@ -37,13 +37,14 @@ export function fetchFaq(){
                             Such knowledge silos reduce peripheral vision of science practitioners, lower the efficacy of decision-making, promote unidimensional thinking and hinder scientific revolutions from taking place (Kuhn). The lack of channels of communication between various disciplines is an obstruction to concerted holistic scientific efforts to map newer interdisciplinary domains such as artificial intelligence, nanoscience, atomic-scale engineering, space science, and genomics and bioinformatics, for instance.
                             
                             The science dataweb would radically alter the scientific landscape and existing search paradigm, allowing for dramatically faster and more precise search queries and filter and sorting capabilities, enabling a cross-pollination of ideas and concepts, dissolving knowledge silos, and providing stakeholders across the world with a powerful tool with which to more effectively and efficiently conduct scientific research.
-                                                        
+                                      
                            `
                         },
                         {
                             id:103,
                             title:'1.3 What is our mission',
                             content:`Our mission is to help solve the world’s greatest interdisciplinary problems while spurring ambitious research efforts into long-neglected interdisciplinary fields. To do this, we want to create a common reference framework for a collective knowledge system. In so doing, we hope to contribute to the de-risking and revaluation of interdisciplinary research, help transition all of academic publishing toward open science and open data models, set the stage for frictionless knowledge dissemination across all of science, and encourage more effective science communication and widespread evidence-based policy making around the world.
+                            
                             With such an interoperable and iteratively improving database in place drawing on the consistent collective efforts of scientists around the world, the scientific community would reverse decades of fragmentation, and be in a better position to achieve a consilience of all scientific knowledge under one vast umbrella dataweb.
                             
                            `
@@ -74,7 +75,9 @@ export function fetchFaq(){
                             title:'1.6 What is the timeline for the Science Open Data Initiative?',
                             content:`As the web hosts innumerable open data repositories comprised of both structured (machine-readable) and unstructured data, and as these datasets are continually being updated and supplemented with exponential stores of data of ever-increasing descriptive richness, the initiative will be an ongoing effort, requiring the concerted and sustained participation of scientists and data scientists the world over to canvas the vast available body of research data and the associated corpus of literature.
                             
-                                SODI is making its resources immediately available to interested stakeholders. With widespread support, and donations from the scientific and international communities, SODI hopes to scale its operations and make this project a truly global effort.`
+                                SODI is making its resources immediately available to interested stakeholders. With widespread support, and donations from the scientific and international communities, SODI hopes to scale its operations and make this project a truly global effort.
+                            
+                            `
                         },{
                             id:107,
                             title:'1.7 Who is leading the Science Open Data Initiative?',
@@ -100,20 +103,21 @@ export function fetchFaq(){
                         {
                             id:202,
                             title:'2.2 Why would the scientific community share their data to the initiative?',
-                            content:`Above all else, we believe that all scientists in the world share a vision where science is open, accessible and free for all to participate in and improve. SODI wants any and all scientists of the world to contribute to building the largest collaborative science repository and making this knowledge truly interoperable and accessible to all. By sharing and helping to categorise their disciplinary data, scientists will be taking an active step to accelerate the rate of interdisciplinary research.
-                            `
+                            content:`Above all else, we believe that all scientists in the world share a vision where science is open, accessible and free for all to participate in and improve. SODI wants any and all scientists of the world to contribute to building the largest collaborative science repository and making this knowledge truly interoperable and accessible to all. By sharing and helping to categorise their disciplinary data, scientists will be taking an active step to accelerate the rate of interdisciplinary research.`
                         },
                         {
                             id:203,
                             title:'2.3 How does SODI validate the quality and accuracy of data sets?',
-                            content:`The SODI data-gathering process is always evolving. We are open to discussing quality control criteria and the means by which they are implemented. If you’d like more information on the way we validate the quality of incoming data, please join the discussion on our Slack team.`
+                            content:`The SODI data-gathering process is always evolving. We are open to discussing quality control criteria and the means by which they are implemented. If you’d like more information on the way we validate the quality of incoming data, please join the discussion on our Slack team. `
                         },
                         {
                             id:204,
                             title:'2.4 How does SODI differ from existing solutions',
                             content:`SODI stands apart in that its mission is an immensely larger challenge. We are endeavoring to gather all Open Access data from every field of science, while most existing repositories specialize in narrow knowledge silos for a single or handful of fields. SODI is focused exclusively on gathering Open Access scientific data stored in online repositories, aligning with our shared values of the free and frictionless distribution and dissemination of knowledge.
                             
-                            We differ in that we are mapping data sets to a more foundational and interdisciplinary ontology to counteract the lack of interoperability that comes from the depth of and difference of descriptive richness in separate models. The interconnection achieved from this singular ontology will grant SODI the ability to uncover meaningful patterns, gaps, and connections across all fields and ultimately accelerate scientific and technological innovation and discovery.`
+                            We differ in that we are mapping data sets to a more foundational and interdisciplinary ontology to counteract the lack of interoperability that comes from the depth of and difference of descriptive richness in separate models. The interconnection achieved from this singular ontology will grant SODI the ability to uncover meaningful patterns, gaps, and connections across all fields and ultimately accelerate scientific and technological innovation and discovery.
+                            
+                            `
                         }
                         
                     ]
@@ -130,21 +134,20 @@ export function fetchFaq(){
                             This challenge is compounded by the fact that the greater the descriptive richness of a metadata model, the more difficult it becomes for interoperability to be achieved with other models (i.e., descriptive richness of ontologies is inversely proportional to their interoperability). A strategy of making semantically rich ontologies interoperable thus becomes exponentially more difficult given the sheer number of classes and subclasses that must be mapped between ontologies, coupled with the amount of heterogeneous datasets available online.
                             
                             SODI’s strategy is thus to provide a more foundational and interdisciplinary exchange layer ontology, with higher level index terms acting as semantic mediators between ontologies, to simplify building a scalable environment while maximizing interoperability. In this way concept mapping is facilitated, and the effort to centralise and interconnect all scientific data is accelerated. It is our aim to make use of existing semantic methodologies and ensure interoperability with existing ontology packages. For more information on our process, please visit our Github.
-                            `
+                             `
                         },
                         {
                             id:302,
                             title:'3.2 What kind of data will be gathered?',
-                            content:`SODI will focus exclusively on gathering and categorizing Open Access scientific data stored in online repositories. Data will be gathered from all major scientific domains, i.e., Natural, Physical, Formal, Applied, and Social sciences. For more information on our knowledge classification system, and how it covers all scientific disciplines, please join our Slack channel. 
+                            content:`SSODI will focus exclusively on gathering and categorizing Open Access scientific data stored in online repositories. Data will be gathered from all major scientific domains, i.e., Natural, Physical, Formal, Applied, and Social sciences. For more information on our knowledge classification system, and how it covers all scientific disciplines, please join our Slack channel. 
                             
                             Target repositories may be both structured (i.e., highly organized, such as on Pubchem). or unstructured (contained within scientific journal articles and other textual artifacts). Unstructured data will require the use of natural language processing and deep learning techniques to accurately text-mine, cluster and categorise data in preparation for merging with SODI’s database.
-                            `
+                             `
                         },
                         {
                             id:303,
                             title:'3.3 How will the data be licensed?',
-                            content:`The data will be sourced exclusively from Open Access repositories, and will be made freely available for non-commercial use under a CC BY-NC 4.0 license. It is our hope that such a database will help to foster scientific progress all across the globe and spur the onset of an era of Science 2.0.
-                            `
+                            content:`The data will be sourced exclusively from Open Access repositories, and will be made freely available for non-commercial use under a CC BY-NC 4.0 license. It is our hope that such a database will help to foster scientific progress all across the globe and spur the onset of an era of Science 2.0.`
                         },
                         {
                             id:304,
@@ -160,7 +163,9 @@ export function fetchFaq(){
                         {
                             id:306,
                             title:'3.6 How do I enlist?',
-                            content:`If you are an interested data scientist, we invite you to take a look at our Github, and  join the discussion on our Slack channel. We’re excited to have the opportunity to learn any insights you may have into this challenge, to collaborate with you in making the dream of the scientific dataweb a reality for all, and to enact real, lasting change in the world!`
+                            content:`If you are an interested data scientist, we invite you to take a look at our Github, and  join the discussion on our Slack channel. We’re excited to have the opportunity to learn any insights you may have into this challenge, to collaborate with you in making the dream of the scientific dataweb a reality for all, and to enact real, lasting change in the world!
+                            
+                            `
                         }
                     ]
                 },
@@ -178,7 +183,8 @@ export function fetchFaq(){
                             title:'4.2 Funding',
                             content:`Although our collaborative project is currently unfunded, our goal is to become self-sustaining through donations from parties with a shared belief in our mission. We seek donations from foundations, universities, research laboratories, and other public and parapublic organizations who wish to make our dream of a massive, interconnected science dataweb a reality. We seek support from groups wanting to aid our initiative in pushing innovation to tackle humanity’s most urgent issues. 
                             
-                            Click to discover how your contribution will support SODI or email us at info@sodi.org. (If we can determine exactly how a few set amounts will be used for SODI and articulate them like CERN, charity: water, and Kiva, I believe this could help ease concerns of donors.)`
+                            Click to discover how your contribution will support SODI or email us at info@sodi.org.
+                            `
                         },
                         {
                             id:403,
@@ -187,12 +193,14 @@ export function fetchFaq(){
                             
                             Our team envisions a world that flourishes with open and interconnected science. Driving our community is a passion for interdisciplinary collaboration and innovation - the type that solves humanity’s most urgent problems. We’re steadfast supporters of evidence-based policy making and citizen science.
                             
-                            Current research and collaboration tools for scientists are wholly inadequate for the discipline-spanning challenges humanity must tackle. The present paradigm hinders innovative progress and the cross-pollination of ideas and concepts. We are looking for the visionaries who are not deterred, but excited by this massive undertaking. Join our Slack team and discover how you can contribute to the Initiative.`
+                            Current research and collaboration tools for scientists are wholly inadequate for the discipline-spanning challenges humanity must tackle. The present paradigm hinders innovative progress and the cross-pollination of ideas and concepts. We are looking for the visionaries who are not deterred, but excited by this massive undertaking. Join our Slack team and discover how you can contribute to the Initiative.
+                            `
                         },
                         {
                             id:404,
                             title:'4.4 Where are we located',
-                            content:`SODI does not yet have offices. We are digital natives working globally and remotely from homes, workspaces, and expensive cafés.`
+                            content:`SODI does not yet have offices. We are digital natives working globally and remotely from homes, workspaces, and expensive cafés.
+                            `
                         }
                     ]
                 }
